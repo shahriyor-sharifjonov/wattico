@@ -4,21 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css?_v=20220803170829">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220930145913">
     <title>Document</title>
   </head>
   <body> 
     <div class="wrapper"> 
             <header class="header"> 
-              <p>header</p>
+              <nav class="header__nav container"><a class="header__logo" href="#!"><img src="img/logo.svg" alt="" draggable="false"></a>
+                <button class="btn header__btn" type="button">Задать вопрос</button>
+              </nav>
             </header>
-            <main class="main"> 
-              <p>main </p>
-            </main>
-            <footer class="footer">  
-              <p>footer</p>
-            </footer>
+      <main class="main"> 
+                <div class="intro"> 
+                  <div class="intro__body container"> 
+                    <h1 class="intro__title">Электричество<br><span>там</span>, где вы!</h1>
+                    <p class="intro__desc">Портативные солнечные панели<br>и аккумуляторы c доставкой по всей России</p>
+                    <button class="btn intro__btn" type="button">Узнать больше</button>
+                    <div class="intro__soc"> <a class="intro__soc-item" href="#!"><svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M17 34C7.61116 34 0 26.3888 0 17C0 7.61116 7.61116 0 17 0C26.3888 0 34 7.61116 34 17C34 26.3888 26.3888 34 17 34ZM17.7351 12.7578C16.2125 13.3911 13.1696 14.7019 8.60616 16.6901C7.86514 16.9847 7.47696 17.273 7.44162 17.5549C7.3819 18.0313 7.97847 18.2189 8.79085 18.4743C8.90135 18.5091 9.01585 18.5451 9.13323 18.5832C9.93248 18.843 11.0076 19.147 11.5665 19.1591C12.0735 19.17 12.6394 18.961 13.2641 18.532C17.5279 15.6539 19.7288 14.1991 19.867 14.1678C19.9645 14.1456 20.0996 14.1178 20.1911 14.1992C20.2826 14.2805 20.2736 14.4346 20.2639 14.4759C20.2048 14.7279 17.8631 16.905 16.6512 18.0317C16.2734 18.3829 16.0054 18.632 15.9506 18.6889C15.8279 18.8164 15.7028 18.937 15.5826 19.0529C14.8401 19.7687 14.2833 20.3054 15.6135 21.182C16.2527 21.6032 16.7642 21.9516 17.2745 22.2991C17.8318 22.6786 18.3877 23.0572 19.1069 23.5286C19.2901 23.6487 19.4651 23.7735 19.6355 23.895C20.2841 24.3574 20.8668 24.7728 21.5867 24.7065C22.0049 24.668 22.437 24.2747 22.6564 23.1016C23.175 20.3293 24.1944 14.3226 24.4299 11.8474C24.4506 11.6305 24.4246 11.353 24.4038 11.2311C24.3829 11.1093 24.3393 10.9357 24.181 10.8072C23.9934 10.655 23.7039 10.6229 23.5744 10.6251C22.9856 10.6356 22.0823 10.9497 17.7351 12.7578Z" fill="url(#paint0_linear_438_384)"/>
+<defs>
+<linearGradient id="paint0_linear_438_384" x1="0" y1="17" x2="34" y2="17" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F83600"/>
+<stop offset="1" stop-color="#F9D423"/>
+</linearGradient>
+</defs>
+</svg></a><a class="intro__soc-item" href="#!"><svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.3673 13.6736C11.458 18.0936 13.668 20.7456 17.544 20.7456H17.7707V18.2183C19.193 18.36 20.2697 19.4026 20.7003 20.7456H22.712C22.5057 19.9825 22.1399 19.2718 21.6388 18.6603C21.1377 18.0489 20.5127 17.5506 19.805 17.1983C20.4392 16.8121 20.9869 16.2993 21.414 15.6918C21.841 15.0844 22.1382 14.3954 22.287 13.668H20.4623C20.0657 15.0733 18.887 16.3483 17.7707 16.4673V13.6736H15.9403V18.5696C14.807 18.2863 13.379 16.915 13.3167 13.6736H11.3673Z" fill="url(#paint0_linear_438_385)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M17 0C26.3888 0 34 7.61116 34 17C34 26.3888 26.3888 34 17 34C7.61116 34 0 26.3888 0 17C0 7.61116 7.61116 0 17 0ZM8.5 16.66C8.5 12.8123 8.5 10.8913 9.69 9.69C10.897 8.5 12.818 8.5 16.66 8.5H17.34C21.1877 8.5 23.1087 8.5 24.31 9.69C25.5 10.897 25.5 12.818 25.5 16.66V17.34C25.5 21.1877 25.5 23.1087 24.31 24.31C23.103 25.5 21.182 25.5 17.34 25.5H16.66C12.8123 25.5 10.8913 25.5 9.69 24.31C8.5 23.103 8.5 21.182 8.5 17.34V16.66Z" fill="url(#paint1_linear_438_385)"/>
+<defs>
+<linearGradient id="paint0_linear_438_385" x1="0" y1="17" x2="34" y2="17" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F83600"/>
+<stop offset="1" stop-color="#F9D423"/>
+</linearGradient>
+<linearGradient id="paint1_linear_438_385" x1="0" y1="17" x2="34" y2="17" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F83600"/>
+<stop offset="1" stop-color="#F9D423"/>
+</linearGradient>
+</defs>
+</svg></a></div>
+                  </div>
+                </div>
+      </main>
     </div>
-    <script src="js/app.min.js?_v=20220803170829"> </script>
+    <script src="js/app.min.js?_v=20220930145913"> </script>
   </body>
 </html>
